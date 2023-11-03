@@ -1,24 +1,3 @@
-Last login: Fri Nov  3 11:25:08 on ttys002
-divyathejagangam@Divyas-Air ~ % pwd            
-/Users/divyathejagangam
-divyathejagangam@Divyas-Air ~ % cd ~/new_assgn
-divyathejagangam@Divyas-Air new_assgn % python3 main.py
-Enter the file path: /Users/divyathejagangam/new_assgn/main.py
-Enter functional dependencies (e.g., StudentID->FirstName,LastName;Course->CourseStart,CourseEnd,Professor;...): StudentID->FirstName,LastName;Course->CourseStart,CourseEnd,Professor
-Enter multivalued functional dependencies (e.g., A->>B,C; X->>Y,Z; ...): A->>B,C; X->>Y,Z
-Enter composite keys (comma-separated, e.g., StudentID,CourseID): StudentID,CourseID
-Enter the desired normalization form (1NF, 2NF, 3NF, BCNF, 4NF, 5NF): 3
-Traceback (most recent call last):
-  File "/Users/divyathejagangam/new_assgn/main.py", line 52, in <module>
-    main()
-  File "/Users/divyathejagangam/new_assgn/main.py", line 16, in main
-    columns = get_columns(file_name)
-              ^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/divyathejagangam/new_assgn/SQLQueryGenerator.py", line 17, in get_columns
-    _ = int(row[i])
-            ~~~^^^
-IndexError: list index out of range
-divyathejagangam@Divyas-Air new_assgn % 
 divyathejagangam@Divyas-Air new_assgn % 
 divyathejagangam@Divyas-Air new_assgn % pwd
 /Users/divyathejagangam/new_assgn
